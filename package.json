@@ -1,0 +1,40 @@
+{
+  "name": "trc10-swap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tronbox.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && npx rimraf docs && npx move-cli build docs",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "author": "Harjyot Singh",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.11.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-scripts": "^2.1.8",
+    "react-select": "^3.1.0",
+    "sweetalert2": "^8.5.0",
+    "tronweb": "^3.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-register": "^6.26.0",
+    "move-cli": "^1.2.1",
+    "rimraf": "^2.6.3",
+    "solc": "^0.4.25"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
